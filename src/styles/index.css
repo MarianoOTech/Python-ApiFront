@@ -1,0 +1,44 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: rgb(10, 8, 10);
+  color :#ebebeb;
+}
+
+input {
+  max-width: 600px;
+}
+
+.gray {
+  color: #d4d4d4;
+}
+
+
+
+.background-gray {
+  background-color: rgba(0, 0, 0, 0.096);
+}
+
+.f11 {
+  font-size: 11px;
+}
+
+.w85 {
+  width: 95%;
+}
+
+.button {
+  font-family: monospace;
+  font-size: 10pt;
+  color: rgb(22, 22, 22);
+  background-color: buttonface;
+  text-align: center;
+  padding: 2px 6px 3px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonface;
+  cursor: pointer;
+  max-width: 250px;
+}

@@ -1,0 +1,51 @@
+/* Contenedor principal de un enlace */
+.link-container {
+    margin-top: 20px;
+  }
+  
+  /* Título de Personajes */
+  .link-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Contenedor para la información del enlace */
+  .link-info-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Contenedor para el nombre y la descripción */
+  .link-details {
+    width: 55%; 
+    text-align: justify; 
+  }
+  
+  /* Contenedor para la imagen */
+  .link-image-container {
+    width: 40%; 
+    max-height: 300px; 
+    overflow: hidden;/* Ajusta el tamaño máximo de la imagen */
+    
+}
+  
+  /* Imagen dentro del contenedor */
+  .link-image {
+    width: 95%;
+    height: auto;
+  }
+  
+  /* Descripción del enlace */
+  .link-description {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #a0a0a0;
+  }
+  
+  /* Texto de votos y autor */
+  .link-meta {
+    font-size: 14px;
+    color: #888;
+  }
+  
